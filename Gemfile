@@ -20,6 +20,7 @@ gem 'devise-bootstrap-views', '~> 1.0'
 gem 'devise-i18n'
 gem "therubyracer"
 gem "less-rails"
+gem 'stock_quote'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
 gem 'will_paginate', '~> 3.1.5'
