@@ -8,4 +8,8 @@ class Stock < ApplicationRecord
       return nil
     end
   end
+
+  has_many :user_stocks
+  has_many :users, through: :user_stocks
+
 end

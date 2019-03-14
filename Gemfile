@@ -21,6 +21,7 @@ gem 'devise-i18n'
 gem "therubyracer"
 gem "less-rails"
 gem 'stock_quote'
+gem 'hirb', '~> 0.7.3'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
 gem 'will_paginate', '~> 3.1.5'
@@ -30,7 +31,7 @@ gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.5'  
+gem 'jbuilder', '~> 2.5'
 gem 'faker'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
