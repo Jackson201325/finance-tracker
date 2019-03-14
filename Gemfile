@@ -15,13 +15,13 @@ gem 'uglifier', '>= 1.3.0'
 gem 'gravtastic'
 gem 'devise'
 gem 'twitter-bootstrap-rails'
-gem 'jquery-rails'
 gem 'devise-bootstrap-views', '~> 1.0'
 gem 'devise-i18n'
 gem "therubyracer"
 gem "less-rails"
 gem 'stock_quote'
 gem 'hirb', '~> 0.7.3'
+gem "font-awesome-rails"
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
 gem 'will_paginate', '~> 3.1.5'
