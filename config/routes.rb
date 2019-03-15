@@ -7,6 +7,12 @@ Rails.application.routes.draw do
   get "search_stocks", to: "stocks#search"
 
   resources :user_stocks, only: [:create, :destroy]
+  resources :users, only:[:show]
+  resources :friendships
+  get "search_friends", to: "users#search"
 
   get "my_friends", to: "users#my_friends"
+
+  # a route to add_my_friend to users controller action add_friend
+  post "add_friend", to: "users#add_friend"
 end

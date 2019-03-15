@@ -12,6 +12,5 @@ class StocksController < ApplicationController
     end
   end
 
-  private
 
 end
